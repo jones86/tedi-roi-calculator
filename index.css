@@ -1,0 +1,48 @@
+:root {
+  --bg: #0b0b0d;
+  --panel: #131316;
+  --panel-line: #232327;
+  --text-primary: #f4f2ec;
+  --text-secondary: #9d9ba3;
+  --text-tertiary: #6c6a72;
+  --grid-line: #29292e;
+  --grid-line-zero: #45454c;
+
+  --costs: #f6e227;
+  --savings: #faaa09;
+  --productivity: #67b03a;
+  --roi-line: #f0725b;
+
+  --slider-track: #313136;
+  --slider-handle: #faaa09;
+  --slider-handle-ring: rgba(250, 170, 9, 0.24);
+
+  --tooltip-bg: #f7f5f0;
+  --tooltip-text: #17161a;
+  --tooltip-label: #6c6a72;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: "Open Sans", -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
